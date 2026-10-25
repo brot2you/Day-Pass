@@ -60,3 +60,9 @@ body{background:linear-gradient(180deg,#d9f3ff 0%,#f4fbf4 42%,#fff2dc 100%);font
 .shell{padding-bottom:125px}
 @media (min-width:700px){.game-dock{position:sticky;bottom:12px;margin:20px auto 0;left:auto;transform:none;width:min(510px,100%)}.shell{padding-bottom:40px}}
 @media(max-width:680px){.cafe-v5-art{height:300px;grid-template-columns:40% 60%}.cafe-v5-header{padding:9px 11px;font-size:12px}.cafe-v5-dialogue{padding:12px;align-items:flex-start;flex-wrap:wrap}.cafe-v5-dialogue p{font-size:17px}.cafe-v5-actions{grid-template-columns:repeat(2,minmax(0,1fr))}.cafe-v5-object{min-height:53px}.cafe-v5-explore{padding:12px}.cafe-v5-oliver{object-position:49% center}}
+
+/* V7: one clean illustration; interactive mission choices remain below, never overlaid. */
+.cafe-v7{border:3px solid #fff;background:#fff9ed;border-radius:24px;overflow:hidden;box-shadow:0 7px 0 #d2ac73,0 14px 32px #1c496333}
+.cafe-v7>img{display:block;width:100%;height:auto;object-fit:contain;aspect-ratio:3/2}
+.cafe-v7-caption{padding:12px 18px;margin:0;background:#fff4d9;color:#19456d;font-size:clamp(14px,1.8vw,18px);font-weight:800;line-height:1.45}
+@media(max-width:680px){.cafe-v7{border-radius:16px}.cafe-v7-caption{padding:10px 12px}.cafe-v5-layout>.panel{padding:10px}}
