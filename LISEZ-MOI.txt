@@ -1,0 +1,12 @@
+DAY PASS V2.1 - GITHUB PAGES
+
+1. Decompresser le ZIP.
+2. Deposer TOUS les fichiers et le dossier assets a la RACINE du depot GitHub Day-Pass.
+3. Remplacer les anciens fichiers index.html, style.css, app.js et data.js.
+4. Attendre le deploiement GitHub Pages puis actualiser Safari (eventuellement onglet prive).
+
+CORRECTION PRINCIPALE : styles integres egalement dans index.html pour eviter une page sans mise en forme lorsque style.css ne se charge pas.
+Interface V2 responsive, carte et 18 missions conservees.
+Sauvegarde locale V1 preservee.
+
+Attention : si les anciens fichiers sont conserves au mauvais endroit dans GitHub, il faut verifier que index.html est bien a la racine du depot.
