@@ -1,9 +1,9 @@
-DAY PASS V3 — Brightonbury Adventure
+DAY PASS V4 — THE CORNER CAFÉ
 
-1. Décompressez le ZIP.
-2. Dans le dépôt GitHub Day-Pass, remplacez les fichiers à la racine et le dossier assets.
-3. Vérifiez Settings > Pages > main / root.
-4. Sur iPhone, rechargez la page Safari (éventuellement en navigation privée).
+Décompressez le ZIP et remplacez TOUS les fichiers à la racine de votre dépôt GitHub Day-Pass, y compris assets.
 
-Cette V3 préserve les 18 missions A1-A2-B1 et les sauvegardes locales V1/V2.
-La zone professeur permet de partager des liens, pas de suivre les résultats à distance.
+Nouveauté : intérieur du café, Oliver, objets interactifs (menu, pâtisseries, boissons, caisse), dialogues de mission intégrés au décor, audio et réponses.
+
+Les 18 missions A1/A2/B1, les liens professeurs et les sauvegardes locales sont conservés.
+
+Après publication, rechargez la page dans Safari.
