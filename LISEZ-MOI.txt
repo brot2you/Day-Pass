@@ -1,12 +1,9 @@
-DAY PASS V2.1 - GITHUB PAGES
+DAY PASS V3 — Brightonbury Adventure
 
-1. Decompresser le ZIP.
-2. Deposer TOUS les fichiers et le dossier assets a la RACINE du depot GitHub Day-Pass.
-3. Remplacer les anciens fichiers index.html, style.css, app.js et data.js.
-4. Attendre le deploiement GitHub Pages puis actualiser Safari (eventuellement onglet prive).
+1. Décompressez le ZIP.
+2. Dans le dépôt GitHub Day-Pass, remplacez les fichiers à la racine et le dossier assets.
+3. Vérifiez Settings > Pages > main / root.
+4. Sur iPhone, rechargez la page Safari (éventuellement en navigation privée).
 
-CORRECTION PRINCIPALE : styles integres egalement dans index.html pour eviter une page sans mise en forme lorsque style.css ne se charge pas.
-Interface V2 responsive, carte et 18 missions conservees.
-Sauvegarde locale V1 preservee.
-
-Attention : si les anciens fichiers sont conserves au mauvais endroit dans GitHub, il faut verifier que index.html est bien a la racine du depot.
+Cette V3 préserve les 18 missions A1-A2-B1 et les sauvegardes locales V1/V2.
+La zone professeur permet de partager des liens, pas de suivre les résultats à distance.
