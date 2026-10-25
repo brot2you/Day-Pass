@@ -33,3 +33,30 @@ body{background:linear-gradient(180deg,#d9f3ff 0%,#f4fbf4 42%,#fff2dc 100%);font
 @keyframes cafeFloat{0%,100%{translate:0 0}50%{translate:0 -4px}}
 @media(max-width:650px){.cafe-stage{aspect-ratio:4/5;min-height:350px;background-position:49% center;border-width:3px;border-radius:20px}.cafe-top{inset:8px 7px auto}.cafe-place-tag,.cafe-progress{padding:6px 9px;font-size:11px}.cafe-oliver{height:53%;max-width:35%;left:0}.cafe-speech{top:17%;left:8%;right:8%;padding:12px 13px}.cafe-speech:before{display:none}.cafe-speech p{font-size:16px}.cafe-hotspot{min-width:55px;padding:4px 6px;border-width:2px;border-radius:12px}.cafe-hotspot span{font-size:19px}.cafe-hotspot small{font-size:10px}.cafe-hotspot[title="Menu"]{left:78%!important;top:57%!important}.cafe-hotspot[title="Cakes"]{left:80%!important;top:74%!important}.cafe-hotspot[title="Drinks"]{left:50%!important;top:87%!important}.cafe-hotspot[title="Till"]{left:21%!important;top:76%!important}.cafe-inspect{bottom:7px;padding:12px 36px 12px 12px}.cafe-inspect p{font-size:12px}.cafe-inspect strong{font-size:16px}}
 @media(prefers-reduced-motion:reduce){.cafe-hotspot{animation:none}}
+
+/* V5 café layout: ONE character, ONE dialogue, clear exploration controls */
+.cafe-v5-layout{display:block;max-width:1080px;margin-inline:auto}
+.cafe-v5-layout>.panel{padding:clamp(10px,2vw,22px)}
+.cafe-v5-layout>aside.panel{display:none}
+.cafe-v5{background:#fff8e9;border:3px solid #fff;border-radius:24px;overflow:hidden;box-shadow:0 7px 0 #d2ac73,0 14px 32px #1c496333}
+.cafe-v5-header{display:flex;justify-content:space-between;align-items:center;gap:12px;background:#163f70;color:#fff;padding:12px 17px;font-weight:900}
+.cafe-v5-header span:last-child{font-size:13px;background:#ffcf70;color:#193f67;padding:6px 12px;border-radius:20px;white-space:nowrap}
+.cafe-v5-art{height:clamp(270px,38vw,470px);display:grid;grid-template-columns:37% 63%;overflow:hidden;background:#b77e4d}
+.cafe-v5-oliver{height:100%;width:100%;object-fit:cover;object-position:center 24%;display:block}
+.cafe-v5-counter{height:100%;width:100%;background:url('assets/cafe-counter-v5.webp') center/cover no-repeat}
+.cafe-v5-dialogue{background:#fffefa;border-top:5px solid #f1d5a5;display:flex;align-items:center;justify-content:space-between;gap:15px;padding:16px 20px;color:#193f66}
+.cafe-v5-dialogue strong{font-size:12px;letter-spacing:1px;color:#2279a5}
+.cafe-v5-dialogue p{font-size:clamp(17px,2.1vw,23px);font-weight:850;line-height:1.4;margin:5px 0}
+.cafe-v5-listen{background:#e6f5fc;border:2px solid #c1e2f2;border-radius:13px;padding:10px 14px;min-height:46px;white-space:nowrap;font-weight:850}
+.cafe-v5-explore{padding:13px 16px 18px;background:#f7ebd4}
+.cafe-v5-explore-label{display:block;color:#244b6d;font-size:13px;font-weight:900;margin-bottom:10px}
+.cafe-v5-actions{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.cafe-v5-object{min-height:58px;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:15px;background:#fffdf5;border:2px solid #f2d8ac;color:#21496d;font-size:15px;font-weight:900;box-shadow:0 3px 0 #d9b67d;touch-action:manipulation}
+.cafe-v5-object span{font-size:23px}.cafe-v5-object.selected,.cafe-v5-object:focus-visible{background:#ffe3a2;border-color:#d58e42;outline:2px solid #174f84;outline-offset:1px}
+.cafe-v5-inspect{position:relative;background:#fff8e7;border-top:2px solid #e9c789;padding:14px 48px 15px 18px;color:#274866}
+.cafe-v5-inspect>button{position:absolute;right:12px;top:11px;border:0;border-radius:50%;background:#e9edf1;width:32px;height:32px}
+.cafe-v5-inspect strong{font-size:18px}.cafe-v5-inspect p{margin:5px 0}.cafe-v5-inspect small{color:#805f2d}
+/* On tablets the dock no longer obscures the activity area */
+.shell{padding-bottom:125px}
+@media (min-width:700px){.game-dock{position:sticky;bottom:12px;margin:20px auto 0;left:auto;transform:none;width:min(510px,100%)}.shell{padding-bottom:40px}}
+@media(max-width:680px){.cafe-v5-art{height:300px;grid-template-columns:40% 60%}.cafe-v5-header{padding:9px 11px;font-size:12px}.cafe-v5-dialogue{padding:12px;align-items:flex-start;flex-wrap:wrap}.cafe-v5-dialogue p{font-size:17px}.cafe-v5-actions{grid-template-columns:repeat(2,minmax(0,1fr))}.cafe-v5-object{min-height:53px}.cafe-v5-explore{padding:12px}.cafe-v5-oliver{object-position:49% center}}

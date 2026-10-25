@@ -1,9 +1,7 @@
-DAY PASS V4 — THE CORNER CAFÉ
+Day Pass V5 — Correction Corner Café iPad / mobile
 
-Décompressez le ZIP et remplacez TOUS les fichiers à la racine de votre dépôt GitHub Day-Pass, y compris assets.
+Décompressez et remplacez TOUS les fichiers dans le dépôt GitHub Pages Day-Pass (y compris assets).
 
-Nouveauté : intérieur du café, Oliver, objets interactifs (menu, pâtisseries, boissons, caisse), dialogues de mission intégrés au décor, audio et réponses.
+Correction : Oliver n’apparaît qu’une fois, les dialogues sont sous la scène, les 4 objets sont regroupés et accessibles au toucher, la colonne latérale disparaît dans le café, et le menu ne masque plus le contenu sur tablette.
 
-Les 18 missions A1/A2/B1, les liens professeurs et les sauvegardes locales sont conservés.
-
-Après publication, rechargez la page dans Safari.
+Les 18 missions et la sauvegarde localStorage daypass-v1-progress sont conservées.
